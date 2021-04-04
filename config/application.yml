@@ -1,0 +1,27 @@
+spring:
+  profiles:
+    active: test
+  http:
+    encoding:
+      force: true
+      charset: UTF-8
+      enabled: true
+
+server:
+  port: 8080
+  context-path: /amarpack
+  tomcat:
+    uri-encoding: UTF-8
+    max-threads: 500
+    min-spare-threads: 100
+    accept-count: 200
+    max-connections: 500
+    accesslog:
+      enabled: true
+      directory: ./logs
+      buffered: true
+      pattern: "%{X-Real-IP}i %h %l %u %t %r %s %b %T"
+      rotate: true
+      suffix: .log
+    basedir: .
+logging.config: ./config/logback-spring.xml

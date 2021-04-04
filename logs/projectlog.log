@@ -1,0 +1,35 @@
+2021-04-02 21:57:15.803 [main] INFO  com.amarsoft.AmarPackTest.Test - Starting Test on DESKTOP-MJS8KHI with PID 1784 (started by 59851 in D:\workspace\AmarPackTest)
+2021-04-02 21:57:15.819 [main] INFO  com.amarsoft.AmarPackTest.Test - The following profiles are active: test
+2021-04-02 21:57:15.850 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@235ecd9f: startup date [Fri Apr 02 21:57:15 CST 2021]; root of context hierarchy
+2021-04-02 21:57:16.082 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2021-04-02 21:57:16.832 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@235ecd9f: startup date [Fri Apr 02 21:57:15 CST 2021]; root of context hierarchy
+2021-04-02 21:57:16.904 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.amarsoft.controller.HomeController.test()
+2021-04-02 21:57:16.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test4]}" onto public java.lang.String com.amarsoft.controller.HomeController.test4()
+2021-04-02 21:57:16.906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test2]}" onto public java.lang.String com.amarsoft.controller.HomeController.test2()
+2021-04-02 21:57:16.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-04-02 21:57:16.908 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-04-02 21:57:16.933 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 21:57:16.933 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 21:57:16.959 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 21:57:17.069 [main] INFO  com.amarsoft.AmarPackTest.Test - Started Test in 1.601 seconds (JVM running for 2.116)
+2021-04-02 21:57:17.118 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@235ecd9f: startup date [Fri Apr 02 21:57:15 CST 2021]; root of context hierarchy
+2021-04-02 22:06:58.656 [main] INFO  com.amarsoft.AmarPackTest.Test - Starting Test on DESKTOP-MJS8KHI with PID 12628 (started by 59851 in D:\workspace\AmarPackTest)
+2021-04-02 22:06:58.657 [main] INFO  com.amarsoft.AmarPackTest.Test - The following profiles are active: test
+2021-04-02 22:06:58.677 [main] INFO  o.s.w.context.support.GenericWebApplicationContext - Refreshing org.springframework.web.context.support.GenericWebApplicationContext@53045c6c: startup date [Fri Apr 02 22:06:58 CST 2021]; root of context hierarchy
+2021-04-02 22:06:58.875 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2021-04-02 22:06:59.929 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@53045c6c: startup date [Fri Apr 02 22:06:58 CST 2021]; root of context hierarchy
+2021-04-02 22:06:59.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.amarsoft.controller.HomeController.test()
+2021-04-02 22:06:59.988 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test2]}" onto public java.lang.String com.amarsoft.controller.HomeController.test2()
+2021-04-02 22:06:59.989 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test4]}" onto public java.lang.String com.amarsoft.controller.HomeController.test4()
+2021-04-02 22:06:59.990 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-04-02 22:06:59.990 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-04-02 22:07:00.019 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 22:07:00.019 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 22:07:00.055 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-02 22:07:00.183 [main] INFO  com.amarsoft.AmarPackTest.Test - Started Test in 1.827 seconds (JVM running for 2.338)
+2021-04-02 22:07:00.218 [main] INFO  com.amarsoft.aop.MyAspect - URL : http://localhost
+2021-04-02 22:07:00.218 [main] INFO  com.amarsoft.aop.MyAspect - HTTP_METHOD : 
+2021-04-02 22:07:00.219 [main] INFO  com.amarsoft.aop.MyAspect - IP : 127.0.0.1
+2021-04-02 22:07:00.219 [main] INFO  com.amarsoft.aop.MyAspect - CLASS_METHOD : com.amarsoft.impl.People.getPeople
+2021-04-02 22:07:00.220 [main] INFO  com.amarsoft.aop.MyAspect - ARGS : [mj]
+2021-04-02 22:07:00.226 [Thread-2] INFO  o.s.w.context.support.GenericWebApplicationContext - Closing org.springframework.web.context.support.GenericWebApplicationContext@53045c6c: startup date [Fri Apr 02 22:06:58 CST 2021]; root of context hierarchy
