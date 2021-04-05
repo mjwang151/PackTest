@@ -6,6 +6,15 @@ spring:
       force: true
       charset: UTF-8
       enabled: true
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5
+    encoding: UTF-8
+    content-type: text/html
+  mvc:
+    static-path-pattern: /static/**
 
 server:
   port: 8080
