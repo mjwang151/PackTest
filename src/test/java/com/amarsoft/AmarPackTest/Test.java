@@ -1,10 +1,8 @@
 package com.amarsoft.AmarPackTest;
 
 import com.amarsoft.impl.People;
-import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 /**
  * @author mjwang
@@ -12,12 +10,10 @@ import org.springframework.test.context.junit4.SpringRunner;
  * @date 2021/4/2 21:49
  */
 @SpringBootTest
-@RunWith(SpringRunner.class)
 public class Test {
     @Autowired
     People people;
-
-    @org.junit.Test
+    @org.junit.jupiter.api.Test
     public void test(){
 
 

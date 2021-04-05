@@ -13,12 +13,13 @@ spring:
     mode: HTML5
     encoding: UTF-8
     content-type: text/html
-  mvc:
-    static-path-pattern: /static/**
+#  mvc:
+#    static-path-pattern: /static/**
 
 server:
   port: 8080
-  context-path: /amarpack
+  servlet:
+    context-path: /amarpack
   tomcat:
     uri-encoding: UTF-8
     max-threads: 500

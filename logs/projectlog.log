@@ -1346,3 +1346,161 @@ org.xml.sax.SAXParseException: 元素内容必须由格式正确的字符数据�
 	at java.lang.Thread.run(Thread.java:745)
 2021-04-05 10:26:09.399 [Thread-7] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7776ab: startup date [Mon Apr 05 10:16:03 CST 2021]; root of context hierarchy
 2021-04-05 10:26:09.409 [Thread-7] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Unregistering JMX-exposed beans on shutdown
+2021-04-05 15:30:56.616 [main] INFO  com.amarsoft.App - Starting App on DESKTOP-MJS8KHI with PID 13516 (D:\workspace\AmarPackTest\target\classes started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:30:56.616 [main] INFO  com.amarsoft.App - The following profiles are active: test
+2021-04-05 15:30:56.804 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2021-04-05 15:30:56.847 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Mon Apr 05 15:30:56 CST 2021]; root of context hierarchy
+2021-04-05 15:30:58.021 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2021-04-05 15:30:58.021 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-05 15:30:58.021 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2021-04-05 15:30:58.099 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/amarpack] - Initializing Spring embedded WebApplicationContext
+2021-04-05 15:30:58.099 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1252 ms
+2021-04-05 15:30:58.239 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2021-04-05 15:30:58.255 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-04-05 15:30:58.255 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-04-05 15:30:58.255 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-04-05 15:30:58.255 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2021-04-05 15:30:58.584 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Mon Apr 05 15:30:56 CST 2021]; root of context hierarchy
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.amarsoft.controller.HomeController.test()
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test4]}" onto public java.lang.String com.amarsoft.controller.HomeController.test4()
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test2]}" onto public java.lang.String com.amarsoft.controller.HomeController.test2()
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.amarsoft.controller.ViewController.main(org.springframework.ui.Model)
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/view]}" onto public java.lang.String com.amarsoft.controller.ViewController.view(org.springframework.ui.Model)
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-04-05 15:30:58.615 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-04-05 15:30:58.646 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:30:58.646 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:30:58.679 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:30:58.992 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-04-05 15:30:59.008 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:30:59.023 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:30:59.023 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2021-04-05 15:30:59.055 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2021-04-05 15:30:59.055 [main] INFO  com.amarsoft.App - Started App in 2.949 seconds (JVM running for 3.971)
+2021-04-05 15:31:14.585 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/amarpack] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-04-05 15:31:14.585 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2021-04-05 15:31:14.617 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 32 ms
+2021-04-05 15:31:14.665 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] INITIALIZING TEMPLATE ENGINE
+2021-04-05 15:31:14.699 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] INITIALIZING TEMPLATE RESOLVER: org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+2021-04-05 15:31:14.699 [http-nio-8080-exec-1] INFO  o.t.templateresolver.AbstractTemplateResolver - [THYMELEAF] TEMPLATE RESOLVER INITIALIZED OK
+2021-04-05 15:31:14.699 [http-nio-8080-exec-1] INFO  o.t.messageresolver.AbstractMessageResolver - [THYMELEAF] INITIALIZING MESSAGE RESOLVER: org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+2021-04-05 15:31:14.699 [http-nio-8080-exec-1] INFO  o.t.messageresolver.AbstractMessageResolver - [THYMELEAF] MESSAGE RESOLVER INITIALIZED OK
+2021-04-05 15:31:14.703 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine.CONFIG - [THYMELEAF] TEMPLATE ENGINE CONFIGURATION:
+[THYMELEAF] * Cache Factory implementation: org.thymeleaf.cache.StandardCacheManager
+[THYMELEAF] * Template modes:
+[THYMELEAF]     * HTML5
+[THYMELEAF]     * XHTML
+[THYMELEAF]     * XML
+[THYMELEAF]     * VALIDXML
+[THYMELEAF]     * LEGACYHTML5
+[THYMELEAF]     * VALIDXHTML
+[THYMELEAF] * Template resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.templateresolver.SpringResourceTemplateResolver
+[THYMELEAF] * Message resolvers (in order):
+[THYMELEAF]     * org.thymeleaf.spring4.messageresolver.SpringMessageResolver
+[THYMELEAF] * Dialect [1 of 2]: org.thymeleaf.spring4.dialect.SpringStandardDialect
+[THYMELEAF]     * Prefix: "th"
+[THYMELEAF] * Dialect [2 of 2]: nz.net.ultraq.thymeleaf.LayoutDialect
+[THYMELEAF]     * Prefix: "layout"
+[THYMELEAF] TEMPLATE ENGINE CONFIGURED OK
+2021-04-05 15:31:14.703 [http-nio-8080-exec-1] INFO  org.thymeleaf.TemplateEngine - [THYMELEAF] TEMPLATE ENGINE INITIALIZED
+2021-04-05 15:31:37.640 [main] INFO  com.amarsoft.App - Starting App on DESKTOP-MJS8KHI with PID 9860 (D:\workspace\AmarPackTest\target\classes started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:31:37.655 [main] INFO  com.amarsoft.App - The following profiles are active: test
+2021-04-05 15:31:37.835 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 5.3.5.Final
+2021-04-05 15:31:37.897 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Mon Apr 05 15:31:37 CST 2021]; root of context hierarchy
+2021-04-05 15:31:39.193 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat initialized with port(s): 8080 (http)
+2021-04-05 15:31:39.208 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-05 15:31:39.208 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.20
+2021-04-05 15:31:39.302 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/amarpack] - Initializing Spring embedded WebApplicationContext
+2021-04-05 15:31:39.302 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1405 ms
+2021-04-05 15:31:39.498 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Mapping servlet: 'dispatcherServlet' to [/]
+2021-04-05 15:31:39.514 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-04-05 15:31:39.514 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-04-05 15:31:39.514 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-04-05 15:31:39.514 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2021-04-05 15:31:39.945 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@359f7cdf: startup date [Mon Apr 05 15:31:37 CST 2021]; root of context hierarchy
+2021-04-05 15:31:40.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test]}" onto public java.lang.String com.amarsoft.controller.HomeController.test()
+2021-04-05 15:31:40.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test4]}" onto public java.lang.String com.amarsoft.controller.HomeController.test4()
+2021-04-05 15:31:40.002 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/test2]}" onto public java.lang.String com.amarsoft.controller.HomeController.test2()
+2021-04-05 15:31:40.017 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/main]}" onto public java.lang.String com.amarsoft.controller.ViewController.main(org.springframework.ui.Model)
+2021-04-05 15:31:40.017 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/view]}" onto public java.lang.String com.amarsoft.controller.ViewController.view(org.springframework.ui.Model)
+2021-04-05 15:31:40.017 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-04-05 15:31:40.017 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-04-05 15:31:40.048 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:31:40.048 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/static/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:31:40.095 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-04-05 15:31:40.576 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2021-04-05 15:31:40.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:31:40.608 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:31:40.623 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2021-04-05 15:31:40.669 [main] INFO  o.s.b.c.e.tomcat.TomcatEmbeddedServletContainer - Tomcat started on port(s): 8080 (http)
+2021-04-05 15:31:40.669 [main] INFO  com.amarsoft.App - Started App in 3.529 seconds (JVM running for 4.636)
+2021-04-05 15:33:25.799 [main] INFO  com.amarsoft.AmarPackTest.Test - Starting Test using Java 1.8.0_60 on DESKTOP-MJS8KHI with PID 4440 (started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:33:25.800 [main] INFO  com.amarsoft.AmarPackTest.Test - The following profiles are active: test
+2021-04-05 15:33:27.715 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 15:33:28.207 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-04-05 15:33:28.377 [main] INFO  com.amarsoft.AmarPackTest.Test - Started Test in 3.126 seconds (JVM running for 4.458)
+2021-04-05 15:33:28.705 [main] INFO  com.amarsoft.aop.MyAspect - URL : http://localhost
+2021-04-05 15:33:28.705 [main] INFO  com.amarsoft.aop.MyAspect - HTTP_METHOD : 
+2021-04-05 15:33:28.705 [main] INFO  com.amarsoft.aop.MyAspect - IP : 127.0.0.1
+2021-04-05 15:33:28.705 [main] INFO  com.amarsoft.aop.MyAspect - CLASS_METHOD : com.amarsoft.impl.People.getPeople
+2021-04-05 15:33:28.705 [main] INFO  com.amarsoft.aop.MyAspect - ARGS : [mj]
+2021-04-05 15:33:28.767 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-05 15:33:40.397 [main] INFO  com.amarsoft.App - Starting App using Java 1.8.0_60 on DESKTOP-MJS8KHI with PID 10920 (D:\workspace\AmarPackTest\target\classes started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:33:40.397 [main] INFO  com.amarsoft.App - The following profiles are active: test
+2021-04-05 15:33:41.393 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-05 15:33:41.409 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:33:41.409 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-05 15:33:41.409 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-05 15:33:41.456 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-05 15:33:41.456 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 994 ms
+2021-04-05 15:33:41.692 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 15:33:41.863 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-04-05 15:33:41.924 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:33:41.955 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-05 15:33:41.971 [main] INFO  com.amarsoft.App - Started App in 2.168 seconds (JVM running for 3.315)
+2021-04-05 15:33:44.215 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-05 15:33:44.216 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-05 15:33:44.217 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2021-04-05 15:33:44.236 [http-nio-8080-exec-1] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:33:45.256 [http-nio-8080-exec-2] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:33:46.029 [http-nio-8080-exec-5] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:33:46.831 [http-nio-8080-exec-4] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:12.695 [http-nio-8080-exec-3] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:13.360 [http-nio-8080-exec-11] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:13.608 [http-nio-8080-exec-7] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:13.826 [http-nio-8080-exec-8] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:14.035 [http-nio-8080-exec-16] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/view
+2021-04-05 15:34:22.438 [http-nio-8080-exec-18] WARN  org.springframework.web.servlet.PageNotFound - No mapping for GET /amarpack/test
+2021-04-05 15:35:40.757 [main] INFO  com.amarsoft.App - Starting App using Java 1.8.0_60 on DESKTOP-MJS8KHI with PID 14196 (D:\workspace\AmarPackTest\target\classes started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:35:40.757 [main] INFO  com.amarsoft.App - The following profiles are active: test
+2021-04-05 15:35:41.755 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-05 15:35:41.765 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:35:41.765 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-05 15:35:41.765 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-05 15:35:41.811 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-05 15:35:41.811 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1008 ms
+2021-04-05 15:35:42.048 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 15:35:42.161 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-04-05 15:35:42.221 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:35:42.252 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2021-04-05 15:35:42.252 [main] INFO  com.amarsoft.App - Started App in 2.062 seconds (JVM running for 3.172)
+2021-04-05 15:35:44.860 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-05 15:35:44.860 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-05 15:35:44.864 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-04-05 15:37:56.879 [main] INFO  com.amarsoft.App - Starting App using Java 1.8.0_60 on DESKTOP-MJS8KHI with PID 11440 (D:\workspace\AmarPackTest\target\classes started by 59851 in D:\workspace\AmarPackTest)
+2021-04-05 15:37:56.879 [main] INFO  com.amarsoft.App - The following profiles are active: test
+2021-04-05 15:37:58.049 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2021-04-05 15:37:58.049 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:37:58.049 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-05 15:37:58.049 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-04-05 15:37:58.154 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/amarpack] - Initializing Spring embedded WebApplicationContext
+2021-04-05 15:37:58.154 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1229 ms
+2021-04-05 15:37:58.455 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-05 15:37:58.645 [main] WARN  org.thymeleaf.templatemode.TemplateMode - [THYMELEAF][main] Template Mode 'HTML5' is deprecated. Using Template Mode 'HTML' instead.
+2021-04-05 15:37:58.740 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2021-04-05 15:37:58.786 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path '/amarpack'
+2021-04-05 15:37:58.802 [main] INFO  com.amarsoft.App - Started App in 2.517 seconds (JVM running for 3.736)
+2021-04-05 15:38:09.279 [http-nio-8080-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/amarpack] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-05 15:38:09.279 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-05 15:38:09.279 [http-nio-8080-exec-2] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 0 ms
